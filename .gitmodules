@@ -1,9 +1,6 @@
 [submodule "TheAlgorithms-Java"]
 	path = TheAlgorithms-Java
 	url = https://github.com/TheAlgorithms/Java.git
-[submodule "CtCI-6th-Edition"]
-	path = CtCI-6th-Edition
-	url = https://github.com/careercup/CtCI-6th-Edition.git
 [submodule "Leetcode-Java"]
 	path = Leetcode-Java
 	url = https://github.com/kdn251/interviews.git
