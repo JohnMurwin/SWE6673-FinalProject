@@ -1,4 +1,4 @@
-<!-- TICS STANDARD PULL REQUEST TEMPLATED: Updated Apr 2022 -->
+<!-- STANDARD PULL REQUEST TEMPLATED: Updated Apr 2022 -->
 <!--- Make sure your title starts with JIRAPROJECT-ISSUEID# --->
 <!--- If your title didn't auto-populate, the title description should be the name of the Jira Card -->
 
