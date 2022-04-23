@@ -1,5 +1,7 @@
 plugins {
     id 'java'
+    id 'jacoco'
+    id 'info.solidsoft.pitest' version '1.7.4'
 }
 
 group 'org.johnmurwin'
@@ -16,4 +18,16 @@ dependencies {
 
 test {
     useJUnitPlatform()
+    finalizedBy(jacocoTestReport)
+}
+
+jacocoTestReport {
+    reports {
+        html.required=true
+    }
+}
+
+pitest {
+    junit5PluginVersion='0.15'
+    targetClasses=['interviewsJava.*']
 }
