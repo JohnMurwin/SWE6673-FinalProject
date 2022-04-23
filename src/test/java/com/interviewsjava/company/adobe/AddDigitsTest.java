@@ -1,4 +1,4 @@
-package com.interviewsJava.company.adobe;
+package com.interviewsjava.company.adobe;
 
 import org.junit.jupiter.api.Test;
 
@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class AddDigitsTest {
 
     @Test
-    public void testAddDigits()
+    void testAddDigits()
     {
         assertEquals(2, new AddDigits().addDigits(38));
         assertEquals(1, new AddDigits().addDigits(10));
