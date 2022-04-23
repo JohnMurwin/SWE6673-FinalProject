@@ -1,0 +1,51 @@
+# Item: Continuous Integration Action
+# Updated: 5/23/2022
+# From: John Murwin
+
+# GitHub Action Trigger Setup: controls WHEN the action will run
+name: CI
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+
+# Workflow Job Setup: Workflows contain one or more jobs that can run sequentially or in parallel
+jobs:
+  CI:
+    name: CI Pipeline # Main Job
+    runs-on: ubuntu-latest
+
+    #Steps Breakdown: steps are a sequence of tasks that will be executed as part of the job
+    steps:
+
+      # Checkout Repo: with fetch-depth 0 for full repo checkout
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Set up JDK 11
+        uses: actions/setup-java@v1
+        with:
+          java-version: 11
+
+      - name: Cache SonarCloud Packages
+        uses: actions/cache@v1
+        with:
+          path: ~/.sonar/cache
+          key: ${{ runner.os }}-sonar
+          restore-keys: ${{ runner.os }}-sonar
+
+      - name: Cache Gradle Packages
+        uses: actions/cache@v1
+        with:
+          path: ~/.gradle/caches
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
+          restore-keys: ${{ runner.os }}-gradle
+
+      - name: Build and Analyze
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: ./gradlew build sonarqube --info
