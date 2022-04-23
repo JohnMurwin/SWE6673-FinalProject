@@ -1,6 +1,6 @@
 package com.cict6thedition.BitManipulation.Q506Conversion;
 
-import CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class Tester {
 	public static int bitSwapRequired(int a, int b) {

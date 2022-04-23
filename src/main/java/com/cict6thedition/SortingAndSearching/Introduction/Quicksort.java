@@ -1,6 +1,6 @@
 package com.cict6thedition.SortingAndSearching.Introduction;
 
-import CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class Quicksort {
 	public static void swap(int[] array, int i, int j) {

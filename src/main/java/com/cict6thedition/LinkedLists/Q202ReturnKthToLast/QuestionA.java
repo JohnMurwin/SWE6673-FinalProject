@@ -1,6 +1,6 @@
 package com.cict6thedition.LinkedLists.Q202ReturnKthToLast;
 
-import CtCILibrary.*;
+import com.cict6thedition.CtCILibrary.*;
 
 public class QuestionA {
 

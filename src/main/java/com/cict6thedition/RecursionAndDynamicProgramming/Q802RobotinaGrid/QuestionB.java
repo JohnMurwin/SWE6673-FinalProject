@@ -1,10 +1,9 @@
 package com.cict6thedition.RecursionAndDynamicProgramming.Q802RobotinaGrid;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
 
-import CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class QuestionB {
 	public static ArrayList<Point> getPath(boolean[][] maze) {

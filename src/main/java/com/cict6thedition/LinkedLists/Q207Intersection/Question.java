@@ -1,7 +1,7 @@
 package com.cict6thedition.LinkedLists.Q207Intersection;
 
-import CtCILibrary.AssortedMethods;
-import CtCILibrary.LinkedListNode;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.LinkedListNode;
 
 public class Question {
 

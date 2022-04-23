@@ -1,6 +1,6 @@
 package com.cict6thedition.LinkedLists.Q206Palindrome;
 
-import CtCILibrary.LinkedListNode;
+import com.cict6thedition.CtCILibrary.LinkedListNode;
 
 public class Tester {
 	

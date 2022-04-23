@@ -2,7 +2,7 @@ package com.cict6thedition.ObjectOrientedDesign.Q708Othello;
 
 import java.util.ArrayList;
 
-import CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 /* A helper class to automate this game. This is just used for testing purposes. */
 public class Automator {

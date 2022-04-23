@@ -1,6 +1,6 @@
 package com.cict6thedition.ArraysAndStrings.Q108ZeroMatrix;
 
-import CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class Tester {
 	public static boolean matricesAreEqual(int[][] m1, int[][] m2) {

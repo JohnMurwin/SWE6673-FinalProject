@@ -1,6 +1,6 @@
 package com.cict6thedition.SortingAndSearching.Q1011PeaksandValleys;
 
-import CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class QuestionC {
 	public static void swap(int[] array, int left, int right) {

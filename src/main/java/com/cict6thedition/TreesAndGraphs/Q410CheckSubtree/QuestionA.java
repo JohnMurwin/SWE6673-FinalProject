@@ -1,7 +1,7 @@
 package com.cict6thedition.TreesAndGraphs.Q410CheckSubtree;
 
-import CtCILibrary.AssortedMethods;
-import CtCILibrary.TreeNode;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.TreeNode;
 
 public class QuestionA {
 	

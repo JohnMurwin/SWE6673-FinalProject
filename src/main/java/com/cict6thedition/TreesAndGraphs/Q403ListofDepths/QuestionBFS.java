@@ -1,6 +1,7 @@
 package com.cict6thedition.TreesAndGraphs.Q403ListofDepths;
 
-import CtCILibrary.*;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Iterator;

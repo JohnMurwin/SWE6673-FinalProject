@@ -2,7 +2,7 @@ package com.cict6thedition.SortingAndSearching.Q1002GroupAnagrams;
 
 import java.util.Arrays;
 
-import CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class Question {
 	public static void main(String[] args) {

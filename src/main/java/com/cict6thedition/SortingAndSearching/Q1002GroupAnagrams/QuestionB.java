@@ -3,8 +3,8 @@ package com.cict6thedition.SortingAndSearching.Q1002GroupAnagrams;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import CtCILibrary.AssortedMethods;
-import CtCILibrary.HashMapList;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.HashMapList;
 
 public class QuestionB {
 	public static void sort(String[] array) {

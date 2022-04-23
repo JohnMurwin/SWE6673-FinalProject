@@ -2,7 +2,7 @@ package com.cict6thedition.StacksAndQueues.Q301ThreeinOne;
 
 import java.util.EmptyStackException;
 
-import CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class FixedMultiStack {
 	private int numberOfStacks = 3;

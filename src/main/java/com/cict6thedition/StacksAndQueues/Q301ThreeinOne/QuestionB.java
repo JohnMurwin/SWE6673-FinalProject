@@ -1,6 +1,6 @@
 package com.cict6thedition.StacksAndQueues.Q301ThreeinOne;
 
-import CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class QuestionB {
 	public static void printStacks(MultiStack stacks) {

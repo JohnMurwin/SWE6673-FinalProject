@@ -1,5 +1,5 @@
 package com.cict6thedition.TreesAndGraphs.Q404CheckBalanced;
-import CtCILibrary.TreeNode;
+import com.cict6thedition.CtCILibrary.TreeNode;
 
 public class QuestionImproved {
 		

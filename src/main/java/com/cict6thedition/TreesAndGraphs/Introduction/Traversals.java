@@ -1,6 +1,6 @@
 package com.cict6thedition.TreesAndGraphs.Introduction;
 
-import CtCILibrary.TreeNode;
+import com.cict6thedition.CtCILibrary.TreeNode;
 
 public class Traversals {
 	public static void visit(TreeNode node) {

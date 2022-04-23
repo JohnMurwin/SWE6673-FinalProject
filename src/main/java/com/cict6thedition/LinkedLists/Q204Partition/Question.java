@@ -1,6 +1,6 @@
 package com.cict6thedition.LinkedLists.Q204Partition;
 
-import CtCILibrary.LinkedListNode;
+import com.cict6thedition.CtCILibrary.LinkedListNode;
 
 public class Question {
 

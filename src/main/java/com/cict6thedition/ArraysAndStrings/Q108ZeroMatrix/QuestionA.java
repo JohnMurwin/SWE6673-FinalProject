@@ -1,6 +1,6 @@
 package com.cict6thedition.ArraysAndStrings.Q108ZeroMatrix;
 
-import CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class QuestionA {
 	public static void nullifyRow(int[][] matrix, int row) {

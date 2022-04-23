@@ -2,7 +2,7 @@ package com.cict6thedition.RecursionAndDynamicProgramming.Q803MagicIndex;
 
 import java.util.Arrays;
 
-import CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class Question {
 

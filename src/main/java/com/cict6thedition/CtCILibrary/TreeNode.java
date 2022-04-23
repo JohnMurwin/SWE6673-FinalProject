@@ -1,4 +1,4 @@
-package CtCILibrary;
+package com.cict6thedition.CtCILibrary;
 
 /* One node of a binary tree. The data element stored is a single 
  * character.

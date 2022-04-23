@@ -2,7 +2,7 @@ package com.cict6thedition.TreesAndGraphs.Q408FirstCommonAncestor;
 
 import java.util.ArrayList;
 
-import CtCILibrary.TreeNode;
+import com.cict6thedition.CtCILibrary.TreeNode;
 
 public class Tester {
 	public static String resultToString(String s, TreeNode x, TreeNode y, TreeNode anc) {

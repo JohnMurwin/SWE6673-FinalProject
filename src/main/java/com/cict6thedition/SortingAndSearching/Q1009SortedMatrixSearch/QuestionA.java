@@ -1,5 +1,6 @@
 package com.cict6thedition.SortingAndSearching.Q1009SortedMatrixSearch;
-import CtCILibrary.*;
+
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class QuestionA {
 

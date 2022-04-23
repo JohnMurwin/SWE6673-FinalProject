@@ -1,7 +1,7 @@
 package com.cict6thedition.TreesAndGraphs.Q405ValidateBST;
 
-import CtCILibrary.AssortedMethods;
-import CtCILibrary.TreeNode;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.TreeNode;
 
 public class QuestionB {
 	public static boolean checkBST(TreeNode n, Integer min, Integer max) {

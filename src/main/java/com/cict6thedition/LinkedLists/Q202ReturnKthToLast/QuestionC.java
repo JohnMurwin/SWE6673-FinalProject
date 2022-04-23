@@ -1,6 +1,7 @@
 package com.cict6thedition.LinkedLists.Q202ReturnKthToLast;
 
-import CtCILibrary.*;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.LinkedListNode;
 
 public class QuestionC {
 	public static class Index {

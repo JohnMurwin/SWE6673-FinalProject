@@ -2,7 +2,7 @@ package com.cict6thedition.RecursionAndDynamicProgramming.Q802RobotinaGrid;
 
 import java.util.ArrayList;
 
-import CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class QuestionA {
 	

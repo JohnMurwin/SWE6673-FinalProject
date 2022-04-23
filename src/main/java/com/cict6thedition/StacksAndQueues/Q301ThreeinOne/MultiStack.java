@@ -2,7 +2,7 @@ package com.cict6thedition.StacksAndQueues.Q301ThreeinOne;
 
 import java.util.EmptyStackException;
 
-import CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class MultiStack {
 	/* StackInfo is a simple class that holds a set of data about 

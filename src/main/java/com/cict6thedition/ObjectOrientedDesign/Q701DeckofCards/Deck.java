@@ -2,7 +2,7 @@ package com.cict6thedition.ObjectOrientedDesign.Q701DeckofCards;
 
 import java.util.ArrayList;
 
-import CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class Deck <T extends Card> {
 	private ArrayList<T> cards;

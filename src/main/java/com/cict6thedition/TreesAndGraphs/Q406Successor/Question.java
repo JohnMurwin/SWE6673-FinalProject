@@ -1,6 +1,6 @@
 package com.cict6thedition.TreesAndGraphs.Q406Successor;
 
-import CtCILibrary.TreeNode;
+import com.cict6thedition.CtCILibrary.TreeNode;
 
 public class Question {
 

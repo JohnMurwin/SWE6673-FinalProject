@@ -1,4 +1,4 @@
-package CtCILibrary;
+package com.cict6thedition.CtCILibrary;
 
 public class BitVector {
 	private static int DATA_SIZE = 32;

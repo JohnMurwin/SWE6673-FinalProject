@@ -3,7 +3,7 @@ package com.cict6thedition.TreesAndGraphs.Q409BSTSequences;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-import CtCILibrary.TreeNode;
+import com.cict6thedition.CtCILibrary.TreeNode;
 
 public class Question {
 	

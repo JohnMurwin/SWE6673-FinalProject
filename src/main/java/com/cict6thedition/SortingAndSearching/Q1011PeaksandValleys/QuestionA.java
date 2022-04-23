@@ -2,7 +2,7 @@ package com.cict6thedition.SortingAndSearching.Q1011PeaksandValleys;
 
 import java.util.Arrays;
 
-import CtCILibrary.AssortedMethods;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class QuestionA {
 	public static void sortValleyPeak(int[] array) {

@@ -1,6 +1,6 @@
 package com.cict6thedition.ArraysAndStrings.Q107RotateMatrix;
 
-import CtCILibrary.*;
+import com.cict6thedition.CtCILibrary.AssortedMethods;
 
 public class Question {
 
