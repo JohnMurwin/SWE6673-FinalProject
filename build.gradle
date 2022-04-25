@@ -31,7 +31,7 @@ jacocoTestReport {
 
 pitest {
     junit5PluginVersion='0.15'
-    targetClasses=['interviewsJava.*']
+    targetClasses=['interviewsJava.*','thealgorithms.*','com.cict6thedition']
 }
 
 sonarqube {
