@@ -1,10 +1,10 @@
 package thealgorithms.maths;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
 
-public class MedianTest {
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+class MedianTest {
     @Test
     void testMedian() {
         int testValues[] = {6,8};

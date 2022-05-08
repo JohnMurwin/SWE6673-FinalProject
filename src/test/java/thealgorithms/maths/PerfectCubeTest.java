@@ -1,10 +1,10 @@
 package thealgorithms.maths;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-
 import org.junit.jupiter.api.Test;
 
-public class PerfectCubeTest {
+import static org.junit.jupiter.api.Assertions.assertFalse;
+
+class PerfectCubeTest {
     @Test
     void testIsPerfectCube() {
         assertFalse(PerfectCube.isPerfectCube(9));

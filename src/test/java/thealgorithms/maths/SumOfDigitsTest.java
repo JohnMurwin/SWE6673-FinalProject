@@ -1,10 +1,10 @@
 package thealgorithms.maths;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
 
-public class SumOfDigitsTest {
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+class SumOfDigitsTest {
     @Test
     void testSumOfDigits() {
         assertEquals(10, SumOfDigits.sumOfDigits(1234));
