@@ -18,7 +18,7 @@ import java.util.*;
 class NthUglyNumber {
 
     /* Function to get the nth ugly number*/
-    public long getNthUglyNo(int n) {
+    public static long getNthUglyNo(int n) {
         long[] ugly = new long[n];
         int two = 0, three = 0, five = 0;
         long nm2 = 2, nm3 = 3, nm5 = 5;
