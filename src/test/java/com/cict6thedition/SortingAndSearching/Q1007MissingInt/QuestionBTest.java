@@ -1,12 +1,12 @@
 package com.cict6thedition.SortingAndSearching.Q1007MissingInt;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class QuestionBTest {
     @Test
     void testFindZero() {        
-        assertEquals(2, QuestionB.findZero((byte)10));
+        assertEquals(0, QuestionB.findZero((byte)10));
     }
 }
