@@ -16,7 +16,7 @@ public class Armstrong {
      * @return {@code true} if given number is armstrong number, {@code false}
      * otherwise
      */
-    public boolean isArmstrong(int number) {
+    public static boolean isArmstrong(int number) {
         long sum = 0;
         long number2 = number;
         while (number2 > 0) {
